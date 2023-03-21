@@ -8,4 +8,4 @@
 > Which day of the week does most pizzas sell.
 > What time of the month does most pizzas sell.
 > Which month had most sales.
-> Quantity.
+> Quantity
