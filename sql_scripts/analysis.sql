@@ -2,7 +2,15 @@
 SELECT COUNT(*) AS total_orders
 FROM orders;
 
--- Average order pric
+-- Total sales
+SELECT
+    SUM(od.quantity * p.price) AS total_sales
+FROM
+    order_details od
+JOIN
+    pizzas p ON od.pizza_id = p.pizza_id;
+
+-- Average order price
 SELECT ROUND(AVG(od.quantity * p.price), 2) AS avg_order_price
 FROM order_details od
 JOIN pizzas p ON od.pizza_id = p.pizza_id;
@@ -106,15 +114,23 @@ JOIN order_details od ON o.order_id = od.order_id
 JOIN pizzas p ON od.pizza_id = p.pizza_id
 GROUP BY day_type;
 
--- Top Selling Pizza Type on Weekends and Weekdays
-SELECT CASE WHEN EXTRACT(DOW FROM o.date) IN (0, 6) THEN 'Weekend' ELSE 'Weekday' END AS day_type,
-       pt.name, SUM(od.quantity) AS total_quantity
-FROM orders o
-JOIN order_details od ON o.order_id = od.order_id
-JOIN pizzas p ON od.pizza_id = p.pizza_id
-JOIN pizza_types pt ON p.pizza_type_id = pt.pizza_type_id
-GROUP BY day_type, pt.name
-ORDER BY day_type, total_quantity DESC;
+-- Pizza Sales by Pizza Type and Day of Week
+SELECT
+    pt.name AS pizza_type,
+    CASE WHEN EXTRACT(DOW FROM o.date) IN (0, 6) THEN 'Weekend' ELSE 'Weekday' END AS day_type,
+    SUM(od.quantity) AS total_quantity
+FROM
+    pizza_types pt
+JOIN
+    pizzas p ON pt.pizza_type_id = p.pizza_type_id
+JOIN
+    order_details od ON p.pizza_id = od.pizza_id
+JOIN
+    orders o ON od.order_id = o.order_id
+GROUP BY
+    pizza_type, day_type
+ORDER BY
+    pizza_type, day_type;
 
 -- Total Orders by Pizza Size
 SELECT p.size, COUNT(*) AS total_orders
@@ -152,3 +168,4 @@ JOIN pizzas p ON od.pizza_id = p.pizza_id
 JOIN pizza_types pt ON p.pizza_type_id = pt.pizza_type_id
 GROUP BY month, pt.category
 ORDER BY month, revenue DESC;
+

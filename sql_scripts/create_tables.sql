@@ -13,8 +13,7 @@ CREATE TABLE order_details (
     quantity INT NOT NULL
 );
 
-
-Create the pizzas table
+-- Create the pizzas table
 CREATE TABLE pizzas (
     pizza_id VARCHAR(50) PRIMARY KEY,
     pizza_type_id VARCHAR(50) NOT NULL,
@@ -29,5 +28,3 @@ CREATE TABLE pizza_types (
     category VARCHAR(50) NOT NULL,
     ingredients TEXT
 );
-
-
