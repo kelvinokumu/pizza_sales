@@ -39,7 +39,7 @@
 
 ## Summary of Findings
 
-In this pizza order analysis, we explored various aspects of customer preferences, order patterns, and sales trends based on a comprehensive dataset. The insights gained from this analysis offer valuable information to enhance decision-making and optimize strategies for our pizza business.
+In this pizza order analysis, I explored various aspects of customer preferences, order patterns, and sales trends based on a comprehensive dataset. The insights gained from this analysis offer valuable information to enhance decision-making and optimize strategies for our pizza business.
 
 1. **Total Sales:** 
    - Our total sales amount to $801944.7, reflecting the revenue generated from pizza orders during the analyzed period.
