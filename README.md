@@ -41,9 +41,11 @@
 
 In this pizza order analysis, we explored various aspects of customer preferences, order patterns, and sales trends based on a comprehensive dataset. The insights gained from this analysis offer valuable information to enhance decision-making and optimize strategies for our pizza business.
 
-1. **Total Sales:** Our total sales amount to $801944.7, reflecting the revenue generated from pizza orders during the analyzed period.
+1. **Total Sales:** 
+   - Our total sales amount to $801944.7, reflecting the revenue generated from pizza orders during the analyzed period.
 
-2. **Total Number of Orders:** With a total of 21350 orders, we have a significant volume of transactions that provide a comprehensive basis for analysis.
+2. **Total Number of Orders:** 
+   - With a total of 21350 orders, we have a significant volume of transactions that provide a comprehensive basis for analysis.
 
 3. **Total Units Sold:** A total of 49574 units (quantities) of pizzas have been sold, giving us an understanding of the overall demand.
 
@@ -57,7 +59,7 @@ In this pizza order analysis, we explored various aspects of customer preference
 
 8. **Most Preferred Pizza Size:** "Large" emerges as the preferred pizza size, followed by "Medium" and "Small," while larger sizes such as "Extra Large" and "Extra Extra Large" constitute a smaller portion of orders.
 
-9. **Busiest Hours for Pizza Orders:** The analysis of order placement throughout the day highlights peak hours at 12 PM and 1 PM, suggesting lunchtime as a prime period for orders.
+9.  **Busiest Hours for Pizza Orders:** The analysis of order placement throughout the day highlights peak hours at 12 PM and 1 PM, suggesting lunchtime as a prime period for orders.
 
 10. **Most Common Pizza Ingredients:** Ingredients such as Garlic, Tomatoes, and Red Onions dominate, providing insights into the favored toppings among customers.
 
