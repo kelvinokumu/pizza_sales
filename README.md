@@ -47,25 +47,35 @@ In this pizza order analysis, we explored various aspects of customer preference
 2. **Total Number of Orders:** 
    - With a total of 21350 orders, we have a significant volume of transactions that provide a comprehensive basis for analysis.
 
-3. **Total Units Sold:** A total of 49574 units (quantities) of pizzas have been sold, giving us an understanding of the overall demand.
+3. **Total Units Sold:** 
+   - A total of 49574 units (quantities) of pizzas have been sold, giving us an understanding of the overall demand.
 
-4. **Most Popular Pizza Category:** The "Classic" category stands out as the most popular among customers, indicating a strong preference for traditional flavors.
+4. **Most Popular Pizza Category:** 
+   - The "Classic" category stands out as the most popular among customers, indicating a strong preference for traditional flavors.
 
-5. **Average Order Quantity by Pizza Category:** Across categories such as Chicken, Classic, Supreme, and Veggie, the average order quantity remains consistent at 1.02 units per order.
+5. **Average Order Quantity by Pizza Category:** 
+   - Across categories such as Chicken, Classic, Supreme, and Veggie, the average order quantity remains consistent at 1.02 units per order.
 
-6. **Day-wise Distribution of Orders:** The distribution of orders across different days of the week provides insights into customer behavior and allows us to tailor our operations accordingly. The highest number of orders occur on Fridays and Saturdays, with varying patterns throughout the week.
+6. **Day-wise Distribution of Orders:** 
+   - The distribution of orders across different days of the week provides insights into customer behavior and allows us to tailor our operations accordingly. The highest number of orders occur on Fridays and Saturdays, with varying patterns throughout the week.
 
-7. **Preferred Pizza Quantity:** The majority of customers prefer to order a single pizza, with smaller percentages opting for quantities of 2, 3, or 4.
+7. **Preferred Pizza Quantity:** 
+   - The majority of customers prefer to order a single pizza, with smaller percentages opting for quantities of 2, 3, or 4.
 
-8. **Most Preferred Pizza Size:** "Large" emerges as the preferred pizza size, followed by "Medium" and "Small," while larger sizes such as "Extra Large" and "Extra Extra Large" constitute a smaller portion of orders.
+8. **Most Preferred Pizza Size:** 
+   - "Large" emerges as the preferred pizza size, followed by "Medium" and "Small," while larger sizes such as "Extra Large" and "Extra Extra Large" constitute a smaller portion of orders.
 
-9.  **Busiest Hours for Pizza Orders:** The analysis of order placement throughout the day highlights peak hours at 12 PM and 1 PM, suggesting lunchtime as a prime period for orders.
+9.  **Busiest Hours for Pizza Orders:** 
+    - The analysis of order placement throughout the day highlights peak hours at 12 PM and 1 PM, suggesting lunchtime as a prime period for orders.
 
-10. **Most Common Pizza Ingredients:** Ingredients such as Garlic, Tomatoes, and Red Onions dominate, providing insights into the favored toppings among customers.
+10. **Most Common Pizza Ingredients:** 
+    - Ingredients such as Garlic, Tomatoes, and Red Onions dominate, providing insights into the favored toppings among customers.
 
-11. **Orders Placed by Year and Month:** The distribution of orders across months unveils varying patterns, allowing us to identify peak and off-peak periods throughout the year.
+11. **Orders Placed by Year and Month:** 
+    - The distribution of orders across months unveils varying patterns, allowing us to identify peak and off-peak periods throughout the year.
 
-12. **Total Sales by Day of the Week:** We observe varying sales amounts by day of the week, helping us identify trends and optimize promotions for specific days.
+12. **Total Sales by Day of the Week:** 
+    - We observe varying sales amounts by day of the week, helping us identify trends and optimize promotions for specific days.
 
 ## Utilizing Insights
 
