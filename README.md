@@ -35,11 +35,6 @@
 
 - month: The month when the order was placed.
 
-
-
-
-Certainly! Here's the summary of findings along with additional descriptions:
-
 ---
 
 ## Summary of Findings
